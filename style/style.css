@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #fff;
+    --cor1: #f2c644c4;
+    --cor2: #F2A71B;
+    --cor3: #ffbf489c;
+    --cor4: #F2911B;
+    --cor5: #A63F03;     
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: var(--cor2) url(../images/fundo2.jpg) ;
+    color: var(--cor5);
+    height: 220px;
+    text-align: center;
+}
+header > h1{
+    line-height: 3em;
+    font-size: 3.2em;
+}
+header > p{
+    color: var(--cor0);
+    font-weight: bold;
+    line-height: 3em;
+    font-size: 1.1em;
+    margin-top: -36px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    margin-left: 12px;
+}
+nav a{
+    background-color: var(--cor4);
+    color: var(--cor0);
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: var(--cor0);
+    color: var(--cor4);
+    transition-duration: .5s;
+}
+main{
+    clear: both;
+    background-color: var(--cor0);
+    margin: auto;
+    min-width: 300px;
+    max-width: 1110px;
+    border-left: solid #00000077 1px;
+    border-bottom: solid #00000077 1px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.384);
+}
+main p{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 12px;
+    text-indent: 15px;
+}
+article{
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+#esquerdo{
+    min-width: 180px;
+    max-width: 310px;
+}
+#centro{
+    min-width: 300px;
+    max-width: 620px;
+}
+#centro > p{
+    text-align: justify;
+}
+#centro > img{
+    width: 100%;
+}
+#direita{
+    min-width: 130px;
+    max-width: 180px;
+    border: solid #00000077 1px;
+    border-top: none;
+    border-bottom: none;
+}
+article h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-weight: normal;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+article h3:hover{
+    border-bottom: solid #808080 1px;
+    margin-bottom: -1px;
+}
+article h3 > a{
+    color: #af670a;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 2em;
+    padding: 0px 3px 6px 0px;
+    text-indent: 8px;
+}
+article h3 > a:hover{
+    color: #227115;
+}
+article h4{
+    font-style: italic;
+}
+article a{
+    color: var(--cor5);
+    text-decoration: none;
+}
+article a:hover{
+    color: var(--cor4);
+}
+section{
+    margin: -10px -10px 9px -11px;
+    padding: 10px;
+    border: solid #00000077 1px;
+    border-top: none;
+    border-left: none;
+}
+section > p{
+    text-align: justify;
+    text-indent: 0px;
+}
+section > a{
+    float: right;
+    margin: -33px -7px 0px 0px;
+}
+section > a:hover{
+    text-decoration: underline;
+}
+section > img{
+    float: left;
+    margin: 5px 7px 0px -3px;
+    height: 50%;
+    width: 50%;
+}
+aside{
+    border: solid black 1px;
+    padding: 5px;
+    margin: 15px -2px 5px -2px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.267);
+}
+aside > img{
+    display: block;
+    margin: 15px auto;
+    height: 72%;
+    width: 72%;
+    border-radius: 50%;
+}
+div{
+    clear: both;
+}
+
+footer{
+    background: var(--cor2) url(../images/fundo2.jpg);
+    color: var(--cor5);
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
